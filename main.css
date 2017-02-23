@@ -28,4 +28,15 @@ body{
   border-radius: 50%;
   padding-top: 75%;
 }
-.clock input{}
+.clock:after{
+  background: #000;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 2%;
+  height: auto;
+  padding-top:2%;
+  transform: translate(-50%,-50%);
+}
